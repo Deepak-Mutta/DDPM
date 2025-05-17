@@ -15,7 +15,7 @@ This implementation follows the approach described in the original paper:
 ---
 
 ## 📁 Project Structure
-
+```
 ddpm/
 ├── Dataset folder/                # Dataset directory with class-wise image folders
 │   └── Class/
@@ -30,4 +30,5 @@ ddpm/
 │
 ├── Diffusion.py                  # Core diffusion process (forward & reverse)
 ├── sample.py                     # Script to sample images using a trained model
-├── unet.py 
+├── unet.py
+```
